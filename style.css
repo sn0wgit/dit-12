@@ -12,13 +12,19 @@ header {
     gap: 1em;
 }
 
+header span {
+    background: #000;
+    color: #fff;
+    padding: 0.5em;
+    margin-right: auto;
+    font-weight: 900;
+}
+
 header a {
     padding: 0.5em;
     color: #000 !important;
     font-weight: 600;
 }
-
-header a:hover::before {}
 
 header a:hover {
     background: #000;
