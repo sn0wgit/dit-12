@@ -39,6 +39,12 @@ main {
     margin: 0 auto;
 }
 
+div:not(:last-child){
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid #00000040;
+}
+
 figure * {
     border: 0;
     width: min(780px, calc(100vw - 20px));
