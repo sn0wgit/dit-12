@@ -40,8 +40,8 @@ main {
 }
 
 div {
-    width: min(calc(100vw - 40px), 760px);
-    margin: 0 20px;
+    width: min(calc(100vw - 2em), calc(800px - 2em));
+    margin: 0 1em;
 }
 
 div:not(:last-child){
@@ -52,7 +52,7 @@ div:not(:last-child){
 
 figure * {
     border: 0;
-    width: min(760px, calc(100vw - 40px));
+    width: min(calc(800px - 2em), calc(100vw - 2em));
     margin: 0 auto;
 }
 
