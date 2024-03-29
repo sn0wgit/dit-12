@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 head, body {
     width: 100%;
     height: 100%;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
     display: flex;
     padding: 1em;
     justify-content: right;
-    gap: 1em;
 }
 
 header span {
@@ -23,7 +23,7 @@ header span {
 header a {
     padding: 0.5em;
     color: #000 !important;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 header a:hover {
@@ -39,6 +39,11 @@ main {
     margin: 0 auto;
 }
 
+div {
+    width: min(calc(100vw - 40px), 760px);
+    margin: 0 20px;
+}
+
 div:not(:last-child){
     padding-bottom: 0.5em;
     margin-bottom: 1.5em;
@@ -47,7 +52,8 @@ div:not(:last-child){
 
 figure * {
     border: 0;
-    width: min(780px, calc(100vw - 20px));
+    width: min(760px, calc(100vw - 40px));
+    margin: 0 auto;
 }
 
 figure iframe {
