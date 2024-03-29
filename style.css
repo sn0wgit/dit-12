@@ -4,6 +4,7 @@ head, body {
     height: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: #000;
 }
 
 header {
@@ -62,4 +63,22 @@ figure iframe {
 
 figure {
     margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin-block: 0;
+    margin-top: 0.5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin-block: 0;
+    margin: 0.25em 0;
+    opacity: 0.5;
+}
+
+p {
+    margin-top: 0.5em;
 }
